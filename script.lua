@@ -53,7 +53,7 @@ checkKeyButton.MouseButton1Click:Connect(function()
 
         -- Execute the script using loadstring
         local success, errorMessage = pcall(function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI", true))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
         end)
 
         if success then
